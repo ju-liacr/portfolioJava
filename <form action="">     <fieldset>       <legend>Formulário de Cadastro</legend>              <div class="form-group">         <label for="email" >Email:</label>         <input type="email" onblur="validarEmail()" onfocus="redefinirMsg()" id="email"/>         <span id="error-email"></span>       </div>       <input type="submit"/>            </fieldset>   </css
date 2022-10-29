@@ -1,0 +1,13 @@
+<form action="">
+    <fieldset>
+      <legend>Formulário de Cadastro</legend>
+      
+      <div class="form-group">
+        <label for="email" >Email:</label>
+        <input type="email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email"/>
+        <span id="error-email"></span>
+      </div>
+      <input type="submit" />
+      
+    </fieldset>
+  </form>
